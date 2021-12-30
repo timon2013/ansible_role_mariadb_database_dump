@@ -1,0 +1,8 @@
+---
+# defaults file for ansible_role_mariadb_database_dump
+
+ansible_role_mariadb_database_dump_mysql_user: admin
+ansible_role_mariadb_database_dump_mysql_password: admin
+ansible_role_mariadb_database_dump_mysql_host: 127.0.0.1
+ansible_role_mariadb_database_dump_db: test
+ansible_role_mariadb_database_dump_backup_path: "~/{{ ansible_role_mariadb_database_dump_db }}.sql"
